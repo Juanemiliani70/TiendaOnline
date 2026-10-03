@@ -1,0 +1,73 @@
+﻿/* estilos.css - estilos compartidos por todas las páginas de la tienda */
+
+body {
+    font-family: Segoe UI, Arial, sans-serif; /* tipografía general */
+    background-color: #f4f6f8; /* fondo gris claro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Encabezado de cada página */
+.encabezado {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+/* Contenedor central del contenido */
+.contenido {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Menú de enlaces de la página principal */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* Cada HyperLink se ve como un botón */
+.boton-menu {
+    display: block;
+    padding: 14px;
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    text-decoration: none; /* quita el subrayado */
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+    .boton-menu:hover {
+        background-color: #1b5e20; /* más oscuro al pasar el mouse */
+    }
+
+/* Estilo de la tabla de la página de consulta */
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .tabla th {
+        background-color: #1f3a5f;
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .tabla td {
+        padding: 8px 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .tabla tr:hover td {
+        background-color: #eef3f8; /* resalta la fila al pasar el mouse */
+    }
